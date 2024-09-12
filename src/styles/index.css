@@ -1,0 +1,7 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  @apply min-h-[400vh] bg-gradient-to-tr from-slate-950 via-slate-800 to-slate-950 bg-no-repeat text-white;
+}
