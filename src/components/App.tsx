@@ -1,5 +1,11 @@
+import Menu from './Menu';
+
 function App() {
-  return <div id='App'></div>;
+  return (
+    <div id='App'>
+      <Menu />
+    </div>
+  );
 }
 
 export default App;
