@@ -23,13 +23,7 @@ function Menu() {
           <li className='hover:text-blue-400 transition-colors'>
             <a href='#projetos'>Projetos</a>
           </li>
-          <li className='hover:text-blue-400 transition-colors'>
-            <a href='#experiencia'>Experiência</a>
-          </li>
-          <li className='hover:text-blue-400 transition-colors'>
-            <a href='#formacao'>Formação</a>
-          </li>
-          <li className='hover:text-blue-400 transition-colors'>
+          <li className='hover:text-blue-400 transition-colors hidden'>
             <a href='#contato'>Contato</a>
           </li>
         </ul>
