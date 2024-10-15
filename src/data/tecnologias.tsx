@@ -25,15 +25,15 @@ export const tecnologias: Array<Tecnologia> = [
   },
   {
     icon: <SiHtml5 className='text-8xl' />,
-    name: 'Html5',
+    name: 'HTML5',
   },
   {
     icon: <SiCss3 className='text-8xl' />,
-    name: 'Css3',
+    name: 'CSS3',
   },
   {
     icon: <SiJavascript className='text-8xl' />,
-    name: 'Javascript',
+    name: 'JavaScript',
   },
   {
     icon: <SiReact className='text-8xl' />,
@@ -41,11 +41,11 @@ export const tecnologias: Array<Tecnologia> = [
   },
   {
     icon: <SiPhp className='text-8xl' />,
-    name: 'Php',
+    name: 'PHP',
   },
   {
     icon: <SiSass className='text-8xl' />,
-    name: 'Sass',
+    name: 'SASS',
   },
   {
     icon: <SiBootstrap className='text-8xl' />,
@@ -57,7 +57,7 @@ export const tecnologias: Array<Tecnologia> = [
   },
   {
     icon: <SiNextdotjs className='text-8xl' />,
-    name: 'Nextdotjs',
+    name: 'Next.js',
   },
   {
     icon: <SiVite className='text-8xl' />,
@@ -73,7 +73,7 @@ export const tecnologias: Array<Tecnologia> = [
   },
   {
     icon: <SiMysql className='text-8xl' />,
-    name: 'Mysql',
+    name: 'MySQL',
   },
   {
     icon: <SiGit className='text-8xl' />,
