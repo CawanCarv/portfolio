@@ -3,5 +3,15 @@
 @tailwind utilities;
 
 body {
-  @apply min-h-[400vh] bg-gradient-to-tr from-slate-950 via-slate-800 to-slate-950 bg-no-repeat text-white font-montserrat;
+  @apply bg-gradient-to-tr from-slate-950 via-slate-800 to-slate-950 bg-no-repeat text-white font-montserrat;
+}
+
+#projetos .swiper-slide:not(.swiper-slide-active) {
+  @apply scale-75;
+}
+
+@media (max-width: 760px) {
+  #projetos .swiper-slide-active article {
+    @apply !justify-center !top-0;
+  }
 }

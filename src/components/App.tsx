@@ -1,5 +1,7 @@
-import Inicio from './Inicio';
-import Menu from './Menu';
+import Inicio from './sections/Inicio';
+import Projetos from './sections/Projetos';
+import Sobre from './sections/Sobre';
+import Menu from './template/Menu';
 
 function App() {
   return (
@@ -7,6 +9,8 @@ function App() {
       <Menu />
       <main>
         <Inicio />
+        <Sobre />
+        <Projetos />
       </main>
     </div>
   );
